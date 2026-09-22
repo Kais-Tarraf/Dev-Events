@@ -11,7 +11,9 @@ const page = () => {
 			<p className="text-center mt-5">
 				Hackathons, Meetups, and Conferences All in One Place
 			</p>
-			<ExploreBtn />
+			<div className="flex justify-center">
+				<ExploreBtn />
+			</div>
 			<div className="mt-20 space-y-7">
 				<h3>Featured Events</h3>
 				<ul className="events">
